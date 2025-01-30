@@ -1,4 +1,4 @@
-DevQuest - Plataforma de Aprendizado
+Code-Visionary - Plataforma de Aprendizado
 Descrição do Projeto
 O DevQuest é uma plataforma de aprendizado interativa e gamificada que permite aos usuários praticar programação em HTML, CSS e JavaScript. O aplicativo fornece um ambiente de edição de código onde os usuários podem escrever e executar seu código diretamente no navegador. Além disso, ele oferece desafios de programação, um editor de código com suporte para diferentes tipos de linguagem, e um ranking de pontuação para incentivar a competição saudável entre os participantes.
 
