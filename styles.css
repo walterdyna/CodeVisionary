@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+main {
+    max-width: 800px;
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px;
+}
+pre {
+    background: #eee;
+    padding: 10px;
+    min-height: 50px;
+}
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+.dark-mode pre {
+    background: #444;
+}
+.hidden {
+    display: none;
+}

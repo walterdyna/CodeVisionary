@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeVisionary - Plataforma de Desafios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DevQuest</h1>
+        <button id="theme-toggle">🌙</button>
+        <button id="login-toggle">Login</button>
+    </header>
+    <main>
+        <section id="login" class="hidden">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Usuário">
+            <button id="login-btn">Entrar</button>
+        </section>
+        <section id="editor">
+            <h2>Editor de Código</h2>
+            <select id="code-type">
+                <option value="js">JavaScript</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </select>
+            <textarea id="code" placeholder="Escreva seu código aqui..."></textarea>
+            <button id="run">Executar</button>
+            <div id="output-container">
+                <pre id="output"></pre>
+                <iframe id="html-output"></iframe>
+            </div>
+        </section>
+        <section id="challenges">
+            <h2>Desafios</h2>
+            <ul>
+                <!-- HTML Desafios -->
+                <li data-type="html" data-code="<h1>Olá, Mundo!</h1>">Criar um título H1</li>
+                <li data-type="html" data-code="<p>Esse é um parágrafo.</p>">Criar um parágrafo</li>
+                <li data-type="html" data-code="<img src='imagem.jpg' alt='Imagem'>">Adicionar uma imagem</li>
+                <li data-type="html" data-code="<a href='https://google.com'>Clique aqui</a>">Criar um link</li>
+                <li data-type="html" data-code="<ul><li>Item 1</li><li>Item 2</li></ul>">Criar uma lista</li>
+                
+                <!-- CSS Desafios -->
+                <li data-type="css" data-code="h1 { color: blue; }">Mudar cor do título</li>
+                <li data-type="css" data-code="p { font-size: 18px; }">Alterar tamanho do texto</li>
+                <li data-type="css" data-code="div { width: 100px; height: 100px; background: red; }">Criar um bloco colorido</li>
+                <li data-type="css" data-code="button { border-radius: 10px; }">Arredondar um botão</li>
+                <li data-type="css" data-code="body { background-color: #f4f4f4; }">Mudar cor do fundo</li>
+                
+                <!-- JavaScript Desafios -->
+                <li data-type="js" data-code="console.log('Olá, mundo!');">Imprimir "Olá, mundo!"</li>
+                <li data-type="js" data-code="let soma = 2 + 2; console.log(soma);">Somar dois números</li>
+                <li data-type="js" data-code="let nome = prompt('Digite seu nome'); alert('Olá, ' + nome);">Pedir nome ao usuário</li>
+                <li data-type="js" data-code="let num = Math.random(); console.log(num);">Gerar um número aleatório</li>
+                <li data-type="js" data-code="document.body.style.backgroundColor = 'lightblue';">Mudar cor de fundo com JS</li>
+            </ul>
+        </section>
+        <section id="leaderboard">
+            <h2>Ranking</h2>
+            <ol id="ranking-list"></ol>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
