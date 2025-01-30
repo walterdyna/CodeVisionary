@@ -43,7 +43,7 @@ Passos para execução
 
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/devquest.git
+git clone https://github.com/walterdyna/CodeVisionary
 
 
 Abra o arquivo index.html no seu navegador:
